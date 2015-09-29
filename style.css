@@ -1,5 +1,7 @@
 h1{
     color: rebecc;
+    text-align: center;
+    font-family: CodeBold;
 }
 #container{
 	color:pink;
@@ -8,19 +10,40 @@ h1{
 body{
 	background-color:grey;
 }
+
 /* MEEEEENYYYYY*/
 .meny{
     list-style: none;
-    background-color: brown;
-    border: 5px #FFFFFF;
+    background-color: white;
     color: white;
     text-align: center;
+    
+}
+nav a:hover{
+    color:grey;
+}
+nav ul{
+    
+}
+
+ul li{
+    display: inline-block; /* for at tekst går inline :) */
+    padding: 0 20px 0; /* Endrer mellomrom mellom meny knappene */
 }
 
 li a{
-    color:white;
+    color:black;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: CodeBold;
+    line-height: 50px;
     
-
 }
 /* MEEEEENYYYYY SLUUUTT*/
+
+header{
+    color:white;
+    padding:0;
+    margin:0;
+    line-height: 100px;
+}
