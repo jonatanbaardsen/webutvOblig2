@@ -8,3 +8,19 @@ h1{
 body{
 	background-color:grey;
 }
+/* MEEEEENYYYYY*/
+.meny{
+    list-style: none;
+    background-color: brown;
+    border: 5px #FFFFFF;
+    color: white;
+    text-align: center;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+    
+
+}
+/* MEEEEENYYYYY SLUUUTT*/
