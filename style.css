@@ -37,7 +37,7 @@ body{
   width: 70%;
   height: 2px;
   background: #9B1C27;
-  animation: menuLine 3s ease forwards;
+  animation: menuLine 1s ease forwards;
   transform: scaleX(0);
   bottom: 0;
   left: 0;
@@ -52,14 +52,14 @@ body{
     opacity: 1;
   }
 }
-
+/*
 @keyframes menuItem {
   to {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
+}*/
+/*
 .meny-element {
   a {
     display: block;
@@ -114,7 +114,7 @@ body{
     }
   }
 }
-
+*/
  GAMMEL MENY
 .meny{
     list-style: none;
