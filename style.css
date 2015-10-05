@@ -157,4 +157,8 @@ header{
 }
 .productbox{
   padding: 10px;
+  background-color: white;
+}
+.productbox p{
+  margin: 10px;
 }
