@@ -87,8 +87,7 @@ header{
   display: block;
 }
 .productbox{
-  left: auto;
-  right: auto;
+  
   padding: 10px;
   background-color: white;
 }
@@ -96,4 +95,7 @@ header{
   margin: 10px;
   height: 200px;
   width: 200px;
+}
+body {
+  text-align: center;
 }
