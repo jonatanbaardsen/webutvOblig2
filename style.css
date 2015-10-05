@@ -155,3 +155,6 @@ header{
 .productlist{
   display: block;
 }
+.productbox{
+  padding: 10px;
+}
