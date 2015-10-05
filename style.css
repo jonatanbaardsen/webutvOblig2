@@ -151,3 +151,7 @@ header{
     margin:0;
     line-height: 100px;
 }
+
+.productlist{
+  display: initial;
+}
