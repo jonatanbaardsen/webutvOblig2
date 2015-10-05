@@ -1,3 +1,8 @@
+/*
+|-------------------------------------------------------
+| Structure Tags
+|-------------------------------------------------------
+*/
 h1{
     color: black;
     text-align: center;
@@ -5,7 +10,6 @@ h1{
 }
 #container{
 	color:black;
-	
 }
 body{
 	background-color:#eaeaea;
@@ -30,9 +34,18 @@ footer{
     padding: 10px;
     border: black solid 1px;
     float: left;
-    
 }
-/* MEEEEENYYYYY*/
+header{
+    color:white;
+    padding:0;
+    margin:0;
+    line-height: 100px;
+}
+/*
+|-------------------------------------------------------
+| Meny
+|-------------------------------------------------------
+*/
 *, *:after, *:before {
   box-sizing: border-box;
   margin: 0;
@@ -74,14 +87,12 @@ li a{
     line-height: 50px;
     
 }
-/* MEEEEENYYYYY SLUUUTT*/
 
-header{
-    color:white;
-    padding:0;
-    margin:0;
-    line-height: 100px;
-}
+/*
+|-------------------------------------------------------
+| Andre klasser
+|-------------------------------------------------------
+*/
 
 .productlist{
   display: block;
