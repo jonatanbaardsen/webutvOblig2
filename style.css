@@ -18,6 +18,10 @@ footer{
     height: 100px;
     background-color: whitesmoke;
 }
+.main{
+    width: 100%;
+    height: 700px;
+}
 /* MEEEEENYYYYY*/
 *, *:after, *:before {
   box-sizing: border-box;
