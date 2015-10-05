@@ -153,5 +153,5 @@ header{
 }
 
 .productlist{
-  display: initial;
+  display: block;
 }
