@@ -68,3 +68,14 @@ header{
     margin:0;
     line-height: 100px;
 }
+
+.productlist{
+  display: block;
+}
+.productbox{
+  padding: 10px;
+  background-color: white;
+}
+.productbox p{
+  margin: 10px;
+}
