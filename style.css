@@ -1,14 +1,14 @@
 h1{
-    color: rebecc;
+    color: black;
     text-align: center;
     font-family: CodeBold;
 }
 #container{
-	color:pink;
+	color:black;
 	
 }
 body{
-	background-color:grey;
+	background-color:whitesmoke;
 }
 
 /* MEEEEENYYYYY*/
@@ -37,7 +37,7 @@ body{
   width: 70%;
   height: 2px;
   background: #9B1C27;
-  animation: menuLine 1s ease forwards;
+  animation: menuLine 3s ease forwards;
   transform: scaleX(0);
   bottom: 0;
   left: 0;
@@ -115,8 +115,7 @@ body{
   }
 }
 
-
-/* GAMMEL MENY
+ GAMMEL MENY
 .meny{
     list-style: none;
     background-color: white;
@@ -133,7 +132,7 @@ nav ul{
 
 ul li{
     display: inline-block; /* for at tekst går inline :) */
-    padding: 0 20px 0; /* Endrer mellomrom mellom meny knappene *//* 
+   padding: 0 20px 0; /* Endrer mellomrom mellom meny knappene */ 
 }
 
 li a{
@@ -143,7 +142,7 @@ li a{
     font-family: CodeBold;
     line-height: 50px;
     
-}*/
+}
 /* MEEEEENYYYYY SLUUUTT*/
 
 header{
