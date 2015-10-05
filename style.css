@@ -17,9 +17,13 @@ body{
 .top{
     background-color: whitesmoke;
 }
-footer{
-    width: 100%;
+.footwrapper{
+    margin: 0 auto;
+    width: 60%;
     height: 100px;
+
+}
+footer{
     background-color: whitesmoke;
 }
 .main{
@@ -34,6 +38,21 @@ footer{
     padding: 10px;
     border: black solid 1px;
     float: left;
+    background-color: whitesmoke;
+}
+.prodpic{
+    margin: 3px;
+    border: red solid 1px;
+    float: left;
+    width: 90px;
+    height: 150px;
+}
+.prodtxt{
+    margin: 3px;
+    border: red solid 1px;
+    float: left;
+    width: 90px;
+    height: 150px;
 }
 header{
     color:white;
