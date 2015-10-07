@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<rss version = "2.0">
+	
+	<channel>
+		<title>Velkomme til den beste websiden</title>
+		<link>putt en link her til index.html</link>
+		<description>En webside for møbler bla bla</description>
+		<language>Norwegian Norsk</language>
+		<!-- alt over denne er MÅ HA -->
+		<!-- alt under er feeds som oppdateres-->
+		<item>
+			<title>Et nytt bord</title>
+			<link>Link til et nytt produkt for eksempel</link>
+			<description>Dette nye bordet bla bla bla</description>
+			<category>Furniture and decoration</category>
+			<image>
+				<url>Link til bildet</url>
+				<title>Dette er et bildet av et bord</title>
+				<link>Index.html</link
+			</image>
+		</item>
+		<item>
+		<title>Vi sender nå til hele Norden</title>
+		<link>jsjadadakdja</link>
+		<description>Vi har utvidet og oppgradert bla bla bla</description>
+		</item>
+		
+		
+	</channel>
+</rss>
