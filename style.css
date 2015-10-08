@@ -148,3 +148,8 @@ body {
     order: 
     
 }
+
+.logo{ /* Logo på header */
+    float: left;
+    margin-right: -100%;
+}
