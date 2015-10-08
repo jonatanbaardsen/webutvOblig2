@@ -144,11 +144,13 @@ body {
 }
 .container{
     border: black solid 1px;
-    
-    
+    width: 35%;
+    height: 100px;
 }
 .item{
     border: red solid 1px;
+    width:  45%;
+    height: 95px;
 }
 
 .logo{ /* Logo på header */
