@@ -143,10 +143,12 @@ body {
     clear: both;
 }
 .container{
-    flex-wrap: wrap;
-    flex-direction: row;
-    order: 
+    border: black solid 1px;
     
+    
+}
+.item{
+    border: red solid 1px;
 }
 
 .logo{ /* Logo på header */
