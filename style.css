@@ -218,7 +218,7 @@ body {
     max-width: 500px;
     background: white;
     padding: 25px 15px 25px 10px;
-    font: 12px Georgia, "Times New Roman", Times, serif;
+    font-family: CodeBold;
     color: #888;
     text-shadow: 1px 1px 1px #FFF;
 
@@ -226,7 +226,7 @@ body {
 
 .formTittel {
     font-size: 25px;
-	font-family:Arial;
+	font-family: CodeBold;
     padding: 0px 0px 10px 40px;
     display: block;
     margin: -10px -15px 30px -10px;;
