@@ -16,7 +16,7 @@
 			<image>
 				<url>Link til bildet</url>
 				<title>Dette er et bildet av et bord</title>
-				<link>Index.html</link
+				<link>Index.html</link>
 			</image>
 		</item>
 		<item>
@@ -28,3 +28,8 @@
 		
 	</channel>
 </rss>
+
+
+
+
+
