@@ -168,9 +168,8 @@ body {
 
 .item{
     border: lightgrey solid 1px;
-	margin:5px;
     width:  55%;
-    height: 90%;
+    height: 95%;
 }
 
 .logo{ /* Logo på header */
@@ -189,9 +188,13 @@ body {
 	
 }
 
-.image{
-	text-align:center;
-	margin-top:45px;
+
+.fillHeight{
+	min-height:100%;
+	width:100%;
 }
 
-
+.fillWidth{
+	min-width:100%;
+	height:auto;
+}
