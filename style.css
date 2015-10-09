@@ -10,6 +10,8 @@ h1{
 }
 #container{
 	color:black;
+	overflow: hidden;
+	z-index: -1;
 
 }
 body{
@@ -153,6 +155,8 @@ body {
     width: 35%;
 	margin:5px;
     height: 200px;
+
+	
 }
 
 .bildeContainer{
@@ -168,6 +172,7 @@ body {
 	margin:5px;
     height: 200px;
 }
+
 
 .item{
     border: lightgrey solid 1px;
@@ -195,11 +200,12 @@ body {
 
 .fillHeight{
 	min-height:100%;
-	width:100%;
+	width:45%;
+	margin-top:;
 }
 
 .fillWidth{
-	min-width:100%;
+	min-width:55%;
 	height:auto;
 }
 .Display{
