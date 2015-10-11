@@ -15,24 +15,95 @@ h1{
 
 }
 body{
-	background-color:white;
+	background-color:whitesmoke;
+    text-align: left;
 }
-.top{
-    background-color: whitesmoke;
-}
+
+/*
+|-------------------------------------------------------
+| Footer
+|-------------------------------------------------------
+*/
 .footwrapper{
+    left:0;
+    bottom:0; /* Gjordet at den er på bunnen på alle sidene */
     margin: 0 auto;
     width: 100%;
-    height: 100px;
+    height: 20em;
 	clear:both;
-
-}
+    box-shadow: 0px -3px 2px 0px rgba(50, 50, 50, 0.2);
+} /* måtte ha - for at den skulle komme på toppen */
 footer{
-    background-color: whitesmoke;
+    background-color: white;
 	width:auto;
 	clear:both;
 	text-align:center;
 }
+.holddegnede{
+    position:absolute; /* For sider med liten content, ellers er den ikke på bunn */
+}
+.titelrader{
+    width:200px;
+    border-bottom: black solid 1px;
+    margin-bottom: 3%;
+}
+.footerradEN{
+    margin-left: 20%; /* Posisjon, flytter alle */
+    width: 20%;
+    margin-top:10px;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+.footerradTO{
+    margin-left:-40px; /* x-Posisjon */
+    margin-top:10px; /* y-Posisjon */
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+
+.footerradTRE{
+    margin-left: -40px; /* Posisjon */
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+.iconfacebook{
+    width:40px;
+    height:40px;
+    margin-top:20px;
+    margin-right:10px;
+}
+.iconinstagram{
+    margin-bottom:-2px; /* Måtte gjøre sånn siden top ikke funket :S */
+    width:45px;
+    height:45px;
+    margin-top:10px;
+    margin-right:10px;
+}
+.icontwitter{
+    width:42px;
+    height:42px;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.copyright{
+    margin-top: 230px; /* y-posisjon */
+    clear:both;
+}
+/*
+|-------------------------------------------------------
+| Footer Slutt
+|-------------------------------------------------------
+*/
 .main{
     margin: 0 auto;
     width: 60%;
@@ -65,11 +136,16 @@ footer{
     width: 36%;
     height: 98%;
 }
-header{
-    color: white;
-    padding: 0;
-    margin: 0;
-    line-height: 100px;
+.header{
+    width:100%;
+    background-color:white;
+    border:none;
+    padding-top: 2em; 
+    top:0;
+    left:0;
+    height:50%; /* HØYDE PÅ HEADER */
+    box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); /* Fin liten skygge */
+    line-height: 4em;
 }
 /*
 |-------------------------------------------------------
@@ -114,6 +190,7 @@ li a{
     color:black;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 0.5s;
     font-family: CodeBold;
     line-height: 50px;
     width: 100%;
@@ -143,9 +220,6 @@ li a{
   border-style: solid;
   border-width: 5px;
 
-}
-body {
-  text-align: left;
 }
 .clearboth{
     clear: both;
@@ -183,8 +257,9 @@ body {
 .logo{ /* Logo på header */
     float: left;
     margin-right: -100%;
-<<<<<<< Updated upstream;
-    margin-left: 23%;
+    margin-left: 18%;
+    margin-top: -1%; /* Fikser y posisjon */
+    clear:both;
 }
 
 
