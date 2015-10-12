@@ -375,13 +375,7 @@ formWrapper{
     background: #CF7A7A
 }
 
-@media print{
-    header, footer, nav{
-        display: none;
-    }
-  
-    
-}
+
 
 
 
