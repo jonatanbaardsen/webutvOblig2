@@ -8,6 +8,11 @@ h1{
     text-align: center;
     font-family: CodeBold;
 }
+h2{
+    margin: 10px;
+    text-align: center;
+    font-family: CodeBold;
+}
 #container{
 	color:black;
 	overflow: hidden;
@@ -27,7 +32,7 @@ body{
 .footwrapper{
     left:0;
     bottom:0; /* Gjordet at den er på bunnen på alle sidene */
-    margin: 0 auto;
+    margin-top:3%;
     width: 100%;
     height: 20em;
 	clear:both;
@@ -48,7 +53,7 @@ footer{
     margin-bottom: 3%;
 }
 .footerradEN{
-    margin-left: 20%; /* Posisjon, flytter alle */
+    margin-left: 27%; /* Posisjon, flytter alle */
     width: 20%;
     margin-top:10px;
     height: 10em;
@@ -99,6 +104,15 @@ footer{
     margin-top: 230px; /* y-posisjon */
     clear:both;
 }
+
+.footlinker{
+    color:black;
+    text-decoration: none;
+}
+
+.footlinker:hover{
+    text-decoration: underline;
+}
 /*
 |-------------------------------------------------------
 | Footer Slutt
@@ -107,7 +121,8 @@ footer{
 .main{
     margin: 0 auto;
     width: 60%;
-    height: 700px;
+    min-height: 500px;
+    height: auto;
 
 }
 .box{
@@ -298,21 +313,25 @@ li a{
 
 
 .formContainer {
+    margin-top: 30px;
     margin-left:auto;
     margin-right:auto;
     max-width: 500px;
-    background: white;
+    background: whitesmoke;
     padding: 25px 15px 25px 10px;
     font-family: CodeBold;
     color: #888;
     text-shadow: 1px 1px 1px #FFF;
 
 }
+formWrapper{
+    width: 500px;
+}
 
 .formTittel {
     font-size: 25px;
 	font-family: CodeBold;
-    padding: 0px 0px 10px 40px;
+    padding: 0px 0px 10px 0px;
     display: block;
     margin: -10px -15px 30px -10px;;
     color: #888;
@@ -324,6 +343,7 @@ li a{
     height: 30px;
     margin-bottom: 16px;
     margin-right: 6px;
+    margin-left: 70px;
     margin-top: 2px;
     outline: 0 none;
     padding: 3px 3px 3px 5px;
@@ -342,6 +362,7 @@ li a{
 
 .formButton {
     background: #E27575;
+    margin-left: 70px;
     border: none;
     padding: 10px 25px 10px 25px;
     color: white;
@@ -352,6 +373,14 @@ li a{
 }
 .formButton:hover {
     background: #CF7A7A
+}
+
+@media print{
+    header, footer, nav{
+        display: none;
+    }
+  
+    
 }
 
 
