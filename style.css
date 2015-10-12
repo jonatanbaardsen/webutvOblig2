@@ -32,7 +32,7 @@ body{
 .footwrapper{
     left:0;
     bottom:0; /* Gjordet at den er på bunnen på alle sidene */
-    margin: 0 auto;
+    margin-top:3%;
     width: 100%;
     height: 20em;
 	clear:both;
@@ -53,7 +53,7 @@ footer{
     margin-bottom: 3%;
 }
 .footerradEN{
-    margin-left: 20%; /* Posisjon, flytter alle */
+    margin-left: 27%; /* Posisjon, flytter alle */
     width: 20%;
     margin-top:10px;
     height: 10em;
@@ -103,6 +103,15 @@ footer{
 .copyright{
     margin-top: 230px; /* y-posisjon */
     clear:both;
+}
+
+.footlinker{
+    color:black;
+    text-decoration: none;
+}
+
+.footlinker:hover{
+    text-decoration: underline;
 }
 /*
 |-------------------------------------------------------
