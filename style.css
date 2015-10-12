@@ -27,7 +27,7 @@ body{
 .footwrapper{
     left:0;
     bottom:0; /* Gjordet at den er på bunnen på alle sidene */
-    margin: 0 auto;
+    margin-top:3%;
     width: 100%;
     height: 20em;
 	clear:both;
