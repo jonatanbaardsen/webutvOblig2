@@ -8,6 +8,11 @@ h1{
     text-align: center;
     font-family: CodeBold;
 }
+h2{
+    margin: 10px;
+    text-align: center;
+    font-family: CodeBold;
+}
 #container{
 	color:black;
 	overflow: hidden;
