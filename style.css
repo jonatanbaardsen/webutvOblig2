@@ -368,6 +368,13 @@ li a{
     background: #CF7A7A
 }
 
+@media print{
+    img{
+        display: none;
+    }
+    
+}
+
 
 
 
