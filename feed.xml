@@ -16,15 +16,25 @@
 			<image>
 				<url>Link til bildet</url>
 				<title>Dette er et bildet av et bord</title>
-				<link>Index.html</link
+				<link>Index.html</link>
 			</image>
 		</item>
 		<item>
-		<title>Vi sender nå til hele Norden</title>
-		<link>jsjadadakdja</link>
-		<description>Vi har utvidet og oppgradert bla bla bla</description>
+		<title>Kontakt oss via email</title>
+		<link>Kontak.html</link>
+		<description>Kontakt oss via email, vi svarer gjerne på spørsmål</description>
 		</item>
+		<item>
+		<title>Om oss</title>
+		<link>omoss.html</link>
+		<description>Vi er et ny opprettet firma som selger møbler av tre</description>
 		
+		</item>
 		
 	</channel>
 </rss>
+
+
+
+
+
