@@ -376,12 +376,10 @@ formWrapper{
 }
 
 @media print{
-    img{
+    header, footer, nav{
         display: none;
     }
-    .container{
-        display:none;
-    }
+  
     
 }
 
