@@ -168,54 +168,93 @@ footer{
 |-------------------------------------------------------
 */
 *, *:after, *:before {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.hovedmeny {
-  margin: auto;
-  width: 960px;
-  text-align: center;
-  position: relative;
-  list-style-type: none;
-  margin-top: 2em;
-}
- /*GAMMEL MENY*/
-.meny{
-    list-style: none;
-    background-color: white;
-    color: white;
-    text-align: center;
-    
-}
-nav a:hover{
-    color: #9b1c27;
-}
-nav ul{
-    
-}
-
-ul li{
-    display: inline-block; /* for at tekst går inline :) */
-   padding: 0 20px 0; /* Endrer mellomrom mellom meny knappene */ 
-}
-
-li a{
-    display: block;
-    color:black;
-    text-decoration: none;
+nav{
+    margin-bottom: 0; /* Lengde meny Y-posisjon*/
+    text-align:center;
     text-transform: uppercase;
-    transition: 0.5s;
-    font-family: CodeBold;
-    line-height: 50px;
-    width: 100%;
-    height: 100%;
-    
 }
+
+nav ul ul{ /*gjemme undermenyer */
+    display:none;
+}
+
+    nav ul li:hover > ul{ /* Gjør at dem bare kommer ut når jeg hover dem */
+        display:block;
+    }
+
+nav ul{
+    background-color:white;
+    padding-top:18px; /* avstand fra titel */
+    list-style:none;
+    position:relative;
+    display:inline-table; /*gjorde at det er i midten */
+}
+
+    nav ul li{
+        float:left;
+    }
+        nav > ul > li > a:hover{ /* For at vanlig knapper skal glow */
+            color:#FF944D;
+            transition: color 0.2s ease; /*tekst glow */
+        }
+            nav ul li a{
+                display:block;
+                padding: 1px 30px; /* avstand punkter */
+                color:black;
+                text-decoration:none;
+                font-family: CodeBold;
+}
+
+nav ul ul{ /* DROP DOWN */
+    padding:0;
+    position:absolute;
+    top:100%;
+}
+
+    nav ul ul li{
+        float:none;
+        position:relative;
+    }
+        nav ul ul li a{
+            padding: 0px 40px;
+            color:black;
+        }
+            nav ul ul li:hover > a{ /* Disse to med hover for at den fortsatt er hover */
+                transition: background-color 0.3s ease;
+                background:#FF944D;
+                box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
+            }
+                nav ul ul li a:hover{
+                    transition: background-color 0.3s ease;
+                    background:#FF944D;
+                    box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
+            }
+
+nav ul ul ul{
+    position:absolute;
+    left:100%;
+    top:0;
+}
+nav ul ul ul a{
+    transition: background-color 0.3s ease;
+}
+
+
+
+
 
 .trykketlink{
     color:#9b1c27;
 }
+
+.pil{
+    background:url(media/Ikoner/arrow.png) right center no-repeat;
+    /* https://upload.wikimedia.org/wikipedia/commons/4/41/MediaWiki_Vector_skin_right_arrow.png */
+}
+
 
 /*
 |-------------------------------------------------------
