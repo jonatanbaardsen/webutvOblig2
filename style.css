@@ -25,7 +25,7 @@ h2{
 
 }
 body{
-	background-color:whitesmoke;
+	background-color:#F5F5F5;
     text-align: left;
 }
 
@@ -41,8 +41,10 @@ body{
     width: 100%;
     height: 20em;
 	clear:both;
-    box-shadow: 0px -3px 2px 0px rgba(50, 50, 50, 0.2);
-} /* måtte ha - for at den skulle komme på toppen */
+    box-shadow: 0px -3px 2px 0px  #888888 ;
+	-moz-box-shadow:    0px -3px 2px 0px  #888888;
+	-webkit-box-shadow:	0px -3px 2px 0px  #888888;
+} 
 footer{
     background-color: white;
 	width:auto;
@@ -137,7 +139,7 @@ footer{
     padding: 0;
     border: black solid 1px;
     float: left;
-    background-color: whitesmoke;
+    background-color:#F5F5F5;
 }
 .prodpic{
     margin: 2px;
@@ -164,7 +166,9 @@ footer{
     top:0;
     left:0;
     height:50%; /* HØYDE PÅ HEADER */
-    box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); /* Fin liten skygge */
+    box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+	-webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); /* Fin liten skygge */
     line-height: 5em;
     z-index: -1;
 }
@@ -182,7 +186,7 @@ nav{
     padding-top: 0;
     text-align:center;
     text-transform: uppercase;
-    z-index: -.5;
+    z-index: -0.5;
 }
 
 nav ul ul{ /*gjemme undermenyer */
@@ -308,9 +312,13 @@ nav ul ul ul a{
 	margin-top:10px;
     height: 200px;
 	overflow: hidden;
+<<<<<<< HEAD
+	margin-left:10%; 	
+=======
 	margin-left:10%;	
 
 	
+>>>>>>> f7bdea66c553d7cb7744ca93f6b99e39c4c9609f
 }
 
 .container2{
@@ -326,7 +334,7 @@ nav ul ul ul a{
 
 
 .item{
-    border: lightgrey solid 1px;
+    border: #D3D3D3 solid 1px;
     width:  60%;
     height: 100%;
 }
@@ -362,7 +370,6 @@ nav ul ul ul a{
 .fillHeight{
 	min-height:100%;
 	width:45%;
-	margin-top:;
 }
 
 .fillWidth{
@@ -384,7 +391,7 @@ nav ul ul ul a{
     margin-left:auto;
     margin-right:auto;
     max-width: 500px;
-    background: whitesmoke;
+    background: #F5F5F5;
     padding: 25px 15px 25px 10px;
     font-family: CodeBold;
     color: #888;
@@ -392,6 +399,7 @@ nav ul ul ul a{
 
 }
 .formWrapper{
+    width:500px;
     width: 500px;
 }
 

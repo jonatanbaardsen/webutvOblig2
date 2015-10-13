@@ -29,7 +29,6 @@
 .fillHeight{
 	min-height:100%;
 	width:55%;
-	margin-top:;
 }
 
 .fillWidth{
@@ -37,9 +36,7 @@
 	height:auto;
 }
 
-.img{
-	box-sizing:border-box;
-}
+
 .logo{
         position: absolute;
         top:40px;
@@ -73,7 +70,6 @@
 .fillHeight{
 	min-height:100%;
 	width:55%;
-	margin-top:;
 }
 
 .fillWidth{
@@ -89,6 +85,7 @@
     height: auto;
 
 }
+
 	
 footer{
 	width:100%;	
@@ -98,59 +95,6 @@ footer{
 
 
 
-	/*
-|-------------------------------------------------------
-| HAMBURGER Meny
-|-------------------------------------------------------
-*/
-/*@media only screen and (max-width: 700px){
-    
-    .hamburger{
-        cursor: pointer;
-        padding: 15px;
-        display: block;
-       
-    }
-    .logo{
-        position: absolute;
-        top: -10px;
-        left: -80px;
-        
-    }
-    .line{
-        border-bottom: 4px solid #bbb;
-        width: 35px;
-        margin-bottom: 6px;
-    }
-    
-    .line:last-child{margin-bottom: 0;}
-    
-    nav li {width: 100%;}
-    
-    
-    .hovedmeny{
-        height: 0;
-        overflow: hidden;
-        
-    }
-    .open{
-        height: 350;
-    }
- 
-    
-}*/
-/*@media only screen and (width: 800px){
-    
-    .hovedmeny{
-        display: block;
-    }
-}*/
-
-/*
-|-------------------------------------------------------
-|  HAMBURGER Meny  SLUTT
-|-------------------------------------------------------
-*/
     
 /*
 |-------------------------------------------------------
@@ -187,7 +131,7 @@ footer{
     float:left;
     text-align:left;
 }    
-}
+
     
 @media screen and (max-width:930px){
 .footerradEN{
