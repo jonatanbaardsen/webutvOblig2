@@ -177,9 +177,9 @@ nav ul ul{ /*gjemme undermenyer */
     display:none;
 }
 
-    nav ul li:hover > ul{ /* Gjør at dem bare kommer ut når jeg hover dem */
-        display:block;
-    }
+nav ul li:hover > ul{ /* Gjør at dem bare kommer ut når jeg hover dem */
+    display:block;
+}
 
 nav ul{
     background-color:white;
@@ -189,19 +189,19 @@ nav ul{
     display:inline-table; /*gjorde at det er i midten */
 }
 
-    nav ul li{
-        float:left;
-    }
-        nav > ul > li > a:hover{ /* For at vanlig knapper skal glow */
-            color:#E27575;
-            transition: color 0.2s ease; /*tekst glow */
-        }
-            nav ul li a{
-                display:block;
-                padding: 1px 30px; /* avstand punkter */
-                color:black;
-                text-decoration:none;
-                font-family: CodeBold;
+nav ul li{
+    float:left;
+}
+nav > ul > li > a:hover{ /* For at vanlig knapper skal glow */
+    color:#E27575;
+    transition: color 0.2s ease; /*tekst glow */
+}
+nav ul li a{
+    display:block;
+    padding: 1px 30px; /* avstand punkter */
+    color:black;
+    text-decoration:none;
+    font-family: CodeBold;
 }
 
 nav ul ul{ /* DROP DOWN */
@@ -210,24 +210,24 @@ nav ul ul{ /* DROP DOWN */
     top:100%;
 }
 
-    nav ul ul li{
-        float:none;
-        position:relative;
-    }
-        nav ul ul li a{
-            padding: 0px 40px;
-            color:black;
-        }
-            nav ul ul li:hover > a{ /* Disse to med hover for at den fortsatt er hover */
-                transition: background-color 0.3s ease;
-                background:#E27575;
-                box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
-            }
-                nav ul ul li a:hover{
-                    transition: background-color 0.3s ease;
-                    background:#E27575;
-                    box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
-            }
+nav ul ul li{
+    float:none;
+    position:relative;
+}
+nav ul ul li a{
+    padding: 0px 40px;
+    color:black;
+}
+nav ul ul li:hover > a{ /* Disse to med hover for at den fortsatt er hover */
+    transition: background-color 0.3s ease;
+    background:#E27575;
+    box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
+}
+nav ul ul li a:hover{
+    transition: background-color 0.3s ease;
+    background:#E27575;
+    box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
+}
 
 nav ul ul ul{
     position:absolute;
