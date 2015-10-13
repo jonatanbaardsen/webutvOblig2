@@ -292,33 +292,35 @@ nav ul ul ul a{
     clear: both;
 }
 
-.container p{
-    padding: 5px;
+.container img{
+    margin-right: 10px;
 }
 
-.container2 p{
-    padding: 5px;
+.container2 img{
+    margin-right: 10px;
 }
 
 .container{
+    background-color: white;
     display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow: inherit;
+	overflow: hidden;
 	margin-left:10%;	
 
 	
 }
 
 .container2{
+    background-color: white;
     display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow: inherit;
+	overflow: hidden;
 	margin-left:10%;
 }
 
