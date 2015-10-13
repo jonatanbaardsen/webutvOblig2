@@ -287,6 +287,8 @@ nav ul ul ul a{
     width: 35%;
 	margin:5px;
     height: 200px;
+	overflow:hidden;
+	margin-left:7%;	
 
 	
 }
@@ -303,6 +305,7 @@ nav ul ul ul a{
     width: 35%;
 	margin:5px;
     height: 200px;
+	overflow:hidden;
 }
 
 

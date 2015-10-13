@@ -1,8 +1,7 @@
-//
-<<<<<<< HEAD
+
 .main{
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     min-height: 500px;
     height: auto;
 
@@ -13,6 +12,7 @@
     width: 45%;
 	margin:5px;
     height: 165px;
+	overflow:hidden;
 
 	
 }
@@ -40,5 +40,58 @@
 .img{
 	box-sizing:border-box;
 }
-=======
->>>>>>> afd1f1a1eb311fc7782f26ef0f3b1bf6c4a770fb
+
+@media screen and (max-width: 930px){
+	
+	
+.container{
+    border: black solid 1px;
+    width: 70%;
+	margin:5px;
+    height: 200px;
+	overflow:hidden;
+	margin-left:15%;
+	
+}
+	
+.container2{
+    border: black solid 1px;
+    width: 80%;
+	margin:5px;
+    height: 200px;
+	
+	overflow:hidden;
+	
+}
+.fillHeight{
+	min-height:100%;
+	width:55%;
+	margin-top:;
+}
+
+.fillWidth{
+	min-width:55%;
+	height:auto;
+}
+
+
+.main{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
