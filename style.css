@@ -291,15 +291,23 @@ nav ul ul ul a{
 .clearboth{
     clear: both;
 }
+
+.container p{
+    padding: 5px;
+}
+
+.container2 p{
+    padding: 5px;
+}
+
 .container{
     display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow: hidden;
-	margin-left:10%;
-    clear: 	
+	overflow: inherit;
+	margin-left:10%;	
 
 	
 }
@@ -310,7 +318,7 @@ nav ul ul ul a{
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow: hidden;
+	overflow: inherit;
 	margin-left:10%;
 }
 
