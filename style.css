@@ -58,7 +58,7 @@ footer{
     margin-bottom: 3%;
 }
 .footerradEN{
-    margin-left: 27%; /* Posisjon, flytter alle */
+    margin-left: 24%; /* Posisjon, flytter alle */
     width: 20%;
     margin-top:10px;
     height: 10em;
@@ -338,11 +338,11 @@ nav ul ul ul a{
     position: absolute;
     top: 40px;
     left: -45px;
-    z-index: 1;
-        
-
+    z-index: .8;
 }
-
+.hamburger{
+    z-index:    1;
+}
 
 .flytVenstre{
 	display: block;
