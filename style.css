@@ -130,7 +130,7 @@ footer{
     width: 60%;
     min-height: 500px;
     height: auto;
-
+    overflow: visible;
 }
 .box{
     width: 40%;
@@ -141,23 +141,7 @@ footer{
     float: left;
     background-color:#F5F5F5;
 }
-.prodpic{
-    margin: 2px;
-    padding: 0;
-    border: red solid 1px;
-    float: left;
-    width: 60%;
-    height: 98%;
-    
-}
-.prodtxt{
-    margin: 2px;
-    padding: 0;
-    border: red solid 1px;
-    float: left;
-    width: 36%;
-    height: 98%;
-}
+
 .header{
     width:100%;
     background-color:white;
@@ -376,8 +360,22 @@ nav ul ul ul a{
 	text-align:center;
 }
 
-
-
+.produkt-tekst{
+    float: left;
+    clear: both;
+}
+.prod-bilde{
+    max-height: 250px;
+    max-width: 400px;
+    margin: 20px auto;
+   
+}
+.video{
+    
+    margin-right: 100px;
+    margin-left: 100px;
+   
+}
 /*Email form fancy shizzle */
 
 
