@@ -9,7 +9,7 @@ h1{
     font-family: CodeBold;
 }
 h2{
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
     text-align: center;
     font-family: CodeBold;
 }
@@ -362,7 +362,8 @@ nav ul ul ul a{
 
 .produkt-tekst{
     display: block;
-    float: left;
+    margin-top: 2em;
+    
     
 }
 .prod-bilde{
@@ -370,13 +371,14 @@ nav ul ul ul a{
     float: left;
     max-height: 250px;
     max-width: 400px;
-    margin: 20px auto;
-   
+    margin:  20px ;
+   box-shadow: 2px 2px 2px #888888;
 }
 .video{
     display: block;
     margin: 50px auto;
     clear: both;
+    box-shadow: 10px 10px 5px #888888;
 }
 /*Email form fancy shizzle */
 
