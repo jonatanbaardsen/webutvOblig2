@@ -13,7 +13,7 @@
 	margin:5px;
     height: 165px;
 	overflow:hidden;
-	margin-left:15%;
+	
 	
 }
 	
@@ -22,7 +22,7 @@
     width: 92%;
 	margin:5px;
     height: 200px;
-	margin-left:15%;
+	
 	overflow:hidden;
 	
 }
@@ -56,7 +56,7 @@
 	
 .container2{
     border: black solid 1px;
-    width: 80%;
+    width: 70%;
 	margin:5px;
     height: 200px;
 	margin-left:15%;
@@ -83,7 +83,11 @@
 
 }
 	
-	
+footer{
+	width:100%;	
+	margin-left:0%;
+	text-align:center;
+}
 	
 	/*
 |-------------------------------------------------------
