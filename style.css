@@ -13,6 +13,11 @@ h2{
     text-align: center;
     font-family: CodeBold;
 }
+.container p{
+    margin-left: 5px;
+
+}
+
 #container{
 	color:black;
 	overflow: hidden;
@@ -20,7 +25,7 @@ h2{
 
 }
 body{
-	background-color:whitesmoke;
+	background-color:#F5F5F5;
     text-align: left;
 }
 
@@ -36,8 +41,10 @@ body{
     width: 100%;
     height: 20em;
 	clear:both;
-    box-shadow: 0px -3px 2px 0px rgba(50, 50, 50, 0.2);
-} /* måtte ha - for at den skulle komme på toppen */
+    box-shadow: 0px -3px 2px 0px  #888888 ;
+	-moz-box-shadow:    0px -3px 2px 0px  #888888;
+	-webkit-box-shadow:	0px -3px 2px 0px  #888888;
+} 
 footer{
     background-color: white;
 	width:auto;
@@ -53,7 +60,7 @@ footer{
     margin-bottom: 3%;
 }
 .footerradEN{
-    margin-left: 27%; /* Posisjon, flytter alle */
+    margin-left: 24%; /* Posisjon, flytter alle */
     width: 20%;
     margin-top:10px;
     height: 10em;
@@ -132,7 +139,7 @@ footer{
     padding: 0;
     border: black solid 1px;
     float: left;
-    background-color: whitesmoke;
+    background-color:#F5F5F5;
 }
 .prodpic{
     margin: 2px;
@@ -159,8 +166,11 @@ footer{
     top:0;
     left:0;
     height:50%; /* HØYDE PÅ HEADER */
-    box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); /* Fin liten skygge */
-    line-height: 4em;
+    box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+	-webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); /* Fin liten skygge */
+    line-height: 5em;
+    z-index: -1;
 }
 /*
 |-------------------------------------------------------
@@ -173,8 +183,10 @@ footer{
 }
 nav{
     margin-bottom: 0; /* Lengde meny Y-posisjon*/
+    padding-top: 0;
     text-align:center;
     text-transform: uppercase;
+    z-index: -0.5;
 }
 
 nav ul ul{ /*gjemme undermenyer */
@@ -187,7 +199,7 @@ nav ul ul{ /*gjemme undermenyer */
 
 nav ul{
     background-color:white;
-    padding-top:18px; /* avstand fra titel */
+    padding-top:0; /* avstand fra titel */
     list-style:none;
     position:relative;
     display:inline-table; /*gjorde at det er i midten */
@@ -264,6 +276,7 @@ nav ul ul ul a{
 
 .productlist{
   display: block;
+    font-family:CodeBold;
 }
 .productbox{
   width: 1000px;
@@ -283,53 +296,55 @@ nav ul ul ul a{
     clear: both;
 }
 .container{
+    display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow:hidden;
-	margin-left:7%;	
-
-	
-}
-
-.bildeContainer{
-    border: black solid 1px;
-    width: 25%;
-	margin:5px;
-    height: 200px;
+	overflow: hidden;
+	margin-left:10%; 	
 }
 
 .container2{
+    display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow:hidden;
-	margin-left:7%;
+	overflow: hidden;
+	margin-left:10%;
 }
 
 
 .item{
-    border: lightgrey solid 1px;
+    border: #D3D3D3 solid 1px;
     width:  60%;
     height: 100%;
 }
 
 .logo{ /* Logo på header */
-    float: left;
+    /*float: left;
+    clear:both;*/
     margin-right: -100%;
     margin-left: 18%;
     margin-top: -1%; /* Fikser y posisjon */
-    clear:both;
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    z-index: .8;
+}
+.hamburger{
+    z-index:    1;
 }
 
-
 .flytVenstre{
-	float:left;
+	display: block;
+    float:left;
+
 	
 }
 .flytHogre{
+    display: block;
 	float:right;
 	
 }
@@ -338,7 +353,6 @@ nav ul ul ul a{
 .fillHeight{
 	min-height:100%;
 	width:45%;
-	margin-top:;
 }
 
 .fillWidth{
@@ -360,7 +374,7 @@ nav ul ul ul a{
     margin-left:auto;
     margin-right:auto;
     max-width: 500px;
-    background: whitesmoke;
+    background: #F5F5F5;
     padding: 25px 15px 25px 10px;
     font-family: CodeBold;
     color: #888;
@@ -369,6 +383,7 @@ nav ul ul ul a{
 }
 .formWrapper{
     width:500px;
+    width: 500px;
 }
 
 .formTittel {
@@ -422,7 +437,5 @@ nav ul ul ul a{
     color: black;
     text-decoration: none;
 }
-
-
 
 

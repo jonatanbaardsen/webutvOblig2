@@ -29,7 +29,6 @@
 .fillHeight{
 	min-height:100%;
 	width:55%;
-	margin-top:;
 }
 
 .fillWidth{
@@ -37,9 +36,14 @@
 	height:auto;
 }
 
-.img{
-	box-sizing:border-box;
-}
+
+.logo{
+        position: absolute;
+        top:40px;
+        left: -45px;
+    
+        
+    }
 
 @media screen and (max-width: 930px){
 	
@@ -66,7 +70,6 @@
 .fillHeight{
 	min-height:100%;
 	width:55%;
-	margin-top:;
 }
 
 .fillWidth{
@@ -83,64 +86,90 @@
 
 }
 
-
-	/*
-|-------------------------------------------------------
-| HAMBURGER Meny
-|-------------------------------------------------------
-*/
-@media only screen and (max-width: 700px){
-    
-    .hamburger{
-        cursor: pointer;
-        padding: 15px;
-        display: block;
-       /* position: absolute;
-        top: 100x;
-        left: 20px;*/
-    }
-    .logo{
-        position: absolute;
-        top: -10px;
-        left: -80px;
-    }
-    .line{
-        border-bottom: 4px solid #bbb;
-        width: 35px;
-        margin-bottom: 6px;
-    }
-    
-    .line:last-child{margin-bottom: 0;}
-    
-    nav li {width: 100%;}
-    
-    .RSS-button{display: none;}
-    
-    .hovedmeny{
-        display: none;
-        
-    }
-   /* .header{
-        height: auto;
-    }*/
-    
+	
+footer{
+	width:100%;	
+	margin-left:0%;
+	text-align:center;
 }
-/*@media only screen and (width: 800px){
-    
-    .hovedmeny{
-        display: block;
-    }
-}*/
 
+
+
+    
 /*
 |-------------------------------------------------------
-|  HAMBURGER Meny  SLUTT
+|  FOOTER START
 |-------------------------------------------------------
 */
-	
-	
-	
-	
+    
+@media screen and (max-width:1120px){
+.footerradEN{
+    margin-left: 20%; /* Posisjon, flytter alle */
+    width: 20%;
+    margin-top:10px;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+.footerradTO{
+    margin-left:-40px; /* x-Posisjon */
+    margin-top:10px; /* y-Posisjon */
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+
+.footerradTRE{
+    margin-left: -40px; /* Posisjon */
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}    
+
+    
+@media screen and (max-width:930px){
+.footerradEN{
+    margin-left: 10%;
+    width: 20%;
+    margin-top:10px;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+.footerradTO{
+    margin-left:-0px;
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+
+.footerradTRE{
+    margin-left: -0px;
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+} 
+
+    
+/*
+|-------------------------------------------------------
+|  FOOTER  SLUTT
+|-------------------------------------------------------
+*/		
 	
 	
 	

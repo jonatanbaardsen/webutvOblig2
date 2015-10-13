@@ -2,11 +2,11 @@
     
 
 header{
-display: none;
+	display: none;
 }
 
 .header{
-        display: none;
+    display: none;
     }
 
 footer{
@@ -17,14 +17,20 @@ nav{
 	display: none;
 }
 
-.logo{
+.logo{ 	
 
-display: none;
+	display: none;
 }
 
-.container, .bildeContainer2, .bildeContainer{
-	width: 200px;
-	height: 200px;
+.container, .container2{
+	width: 80%;
+	height: 250px;
+	border-color: white;
+	margin: 20px 20px;
+	overflow: inherit;
+
+
 }
+
 
 
