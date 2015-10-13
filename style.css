@@ -197,7 +197,7 @@ nav ul{
         float:left;
     }
         nav > ul > li > a:hover{ /* For at vanlig knapper skal glow */
-            color:#FF944D;
+            color:#E27575;
             transition: color 0.2s ease; /*tekst glow */
         }
             nav ul li a{
@@ -224,12 +224,12 @@ nav ul ul{ /* DROP DOWN */
         }
             nav ul ul li:hover > a{ /* Disse to med hover for at den fortsatt er hover */
                 transition: background-color 0.3s ease;
-                background:#FF944D;
+                background:#E27575;
                 box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
             }
                 nav ul ul li a:hover{
                     transition: background-color 0.3s ease;
-                    background:#FF944D;
+                    background:#E27575;
                     box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.2)
             }
 
