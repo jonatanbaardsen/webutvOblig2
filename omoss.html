@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel = "stylesheet" href = "responsivt.css" media = "screen and (max-width: 1120px)"/>
+    <link rel = "stylesheet" href = "responsivt-mobil.css" media = "screen and (max-width: 700px)"/>
     <link rel="stylesheet" type="text/css" href="print.css" media="print">
 	<link rel="shortcut icon" href="Media/Ikoner/oakicon.png" />
     <style>
@@ -21,26 +23,31 @@
     <div class="header">
         <header>
             <div class="logo"> <!-- LOGO I HEADER -->
-                <a href="index.html"><img src="media/logobilder/logo.png" alt="banzai oak logo" height="180" width="230"></a>
+                <a href="index.html"><img src="media/logobilder/logominderMindre.png" alt="banzai oak logo" height="100" width="125"></a>
             </div>
             <h1><a href="index.html" class="link-noStyle">banzai oak</a></h1>
         </header>
-        <nav>
-            <ul class="hovedmeny">
+         <nav>
+            <div href="#" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="hovedmeny closed">
                 <li><a href="index.html">Hjemme</a></li>
                 <li><a href="produkter.html">Produkter</a>
                     <ul>
-                        <li><a href="#" class="pil">Stue</a>
+                        <li><a href="undermeny/stue.html" class="pil">Stue</a>
                                 <ul>
-                                    <a href="#">Sofaer</a>
-                                    <a href="#">Bord</a>
-                                    <a href="#">Stoler</a>
+                                    <a href="undermeny/sofa.html">Sofaer</a>
+                                    <a href="undermeny/bord.html">Bord</a>
+                                    <a href="undermeny/stol.html">Stoler</a>
                         </li>   </ul>
-                        <li><a href="#" class="pil">Soverom</a>
+                        <li><a href="undermeny/soverom.html" class="pil">Soverom</a>
                             <ul>
-                                <a href="#">Senger</a>
-                                <a href="#">Skaper</a>
-                                <a href="#">Sofaer</a>
+                                <a href="undermeny/seng.html">Senger</a>
+                                <a href="undermeny/skap.html">Skaper</a>
+                                <a href="undermeny/sofa.html">Sofaer</a>
                             </ul>
                         </li>
                     </ul>

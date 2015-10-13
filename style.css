@@ -13,6 +13,11 @@ h2{
     text-align: center;
     font-family: CodeBold;
 }
+.container p{
+    margin-left: 5px;
+
+}
+
 #container{
 	color:black;
 	overflow: hidden;
@@ -160,7 +165,8 @@ footer{
     left:0;
     height:50%; /* HØYDE PÅ HEADER */
     box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); /* Fin liten skygge */
-    line-height: 4em;
+    line-height: 5em;
+    z-index: -1;
 }
 /*
 |-------------------------------------------------------
@@ -173,8 +179,10 @@ footer{
 }
 nav{
     margin-bottom: 0; /* Lengde meny Y-posisjon*/
+    padding-top: 0;
     text-align:center;
     text-transform: uppercase;
+    z-index: -.5;
 }
 
 nav ul ul{ /*gjemme undermenyer */
@@ -187,7 +195,7 @@ nav ul ul{ /*gjemme undermenyer */
 
 nav ul{
     background-color:white;
-    padding-top:18px; /* avstand fra titel */
+    padding-top:0; /* avstand fra titel */
     list-style:none;
     position:relative;
     display:inline-table; /*gjorde at det er i midten */
@@ -284,29 +292,25 @@ nav ul ul ul a{
     clear: both;
 }
 .container{
+    display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow:hidden;
-	margin-left:10%;	
+	overflow: hidden;
+	margin-left:10%;
+    clear: 	
 
 	
 }
 
-.bildeContainer{
-    border: black solid 1px;
-    width: 25%;
-	margin:5px;
-    height: 200px;
-}
-
 .container2{
+    display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow:hidden;
+	overflow: hidden;
 	margin-left:10%;
 }
 
@@ -318,19 +322,28 @@ nav ul ul ul a{
 }
 
 .logo{ /* Logo på header */
-    float: left;
+    /*float: left;
+    clear:both;*/
     margin-right: -100%;
     margin-left: 18%;
     margin-top: -1%; /* Fikser y posisjon */
-    clear:both;
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    z-index: .8;
+}
+.hamburger{
+    z-index:    1;
 }
 
-
 .flytVenstre{
-	float:left;
+	display: block;
+    float:left;
+
 	
 }
 .flytHogre{
+    display: block;
 	float:right;
 	
 }
