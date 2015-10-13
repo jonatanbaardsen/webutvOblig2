@@ -367,8 +367,8 @@ nav ul ul ul a{
     text-shadow: 1px 1px 1px #FFF;
 
 }
-formWrapper{
-    width: 500px;
+.formWrapper{
+    width:500px;
 }
 
 .formTittel {
