@@ -451,4 +451,8 @@ nav ul ul ul a{
     text-decoration: none;
 }
 
-
+.rss{
+	position:absolute;
+	top:10px;
+	right:90px;
+}
