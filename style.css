@@ -264,6 +264,7 @@ nav ul ul ul a{
 
 .productlist{
   display: block;
+    font-family:CodeBold;
 }
 .productbox{
   width: 1000px;
