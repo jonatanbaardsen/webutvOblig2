@@ -126,7 +126,7 @@ footer{
 |-------------------------------------------------------
 */
 .main{
-    margin: 0 auto;
+    margin: auto auto;
     width: 60%;
     min-height: 500px;
     height: auto;
