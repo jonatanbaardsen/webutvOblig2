@@ -130,7 +130,6 @@ footer{
     width: 60%;
     min-height: 500px;
     height: auto;
-    overflow: visible;
 }
 .box{
     width: 40%;
@@ -361,20 +360,22 @@ nav ul ul ul a{
 }
 
 .produkt-tekst{
+    display: block;
     float: left;
-    clear: both;
+    
 }
 .prod-bilde{
+    display: block;
+    float: left;
     max-height: 250px;
     max-width: 400px;
     margin: 20px auto;
    
 }
 .video{
-    
-    margin-right: 100px;
-    margin-left: 100px;
-   
+    display: block;
+    margin 10px 0 0 0;
+    clear: both;
 }
 /*Email form fancy shizzle */
 
