@@ -32,7 +32,9 @@
         height: 350;
         display: none;  
     }
- 
+    .hovedmeny{
+        width: 100%;
+    }
     
     
 }

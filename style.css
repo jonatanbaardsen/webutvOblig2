@@ -172,6 +172,7 @@ nav{
     text-transform: uppercase;
     z-index: 0;
     height: 85px;
+    width: 100%;
 }
 
 nav ul ul{ /*gjemme undermenyer */
