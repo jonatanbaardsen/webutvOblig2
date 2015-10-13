@@ -1,1 +1,41 @@
 //
+.main{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+
+}
+
+.container{
+    border: black solid 1px;
+    width: 45%;
+	margin:5px;
+    height: 165px;
+
+	
+}
+	
+.container2{
+    border: black solid 1px;
+    width: 92%;
+	margin:5px;
+    height: 200px;
+
+	overflow:hidden;
+	
+}
+.fillHeight{
+	min-height:100%;
+	width:55%;
+	margin-top:;
+}
+
+.fillWidth{
+	min-width:55%;
+	height:auto;
+}
+
+.img{
+	box-sizing:border-box;
+}
