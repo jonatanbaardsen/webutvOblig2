@@ -151,6 +151,82 @@ footer{
 |  HAMBURGER Meny  SLUTT
 |-------------------------------------------------------
 */
+    
+/*
+|-------------------------------------------------------
+|  FOOTER START
+|-------------------------------------------------------
+*/
+    
+@media screen and (max-width:1120px){
+.footerradEN{
+    margin-left: 20%; /* Posisjon, flytter alle */
+    width: 20%;
+    margin-top:10px;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+.footerradTO{
+    margin-left:-40px; /* x-Posisjon */
+    margin-top:10px; /* y-Posisjon */
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+
+.footerradTRE{
+    margin-left: -40px; /* Posisjon */
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}    
+}
+    
+@media screen and (max-width:930px){
+.footerradEN{
+    margin-left: 10%;
+    width: 20%;
+    margin-top:10px;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+.footerradTO{
+    margin-left:-0px;
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+
+.footerradTRE{
+    margin-left: -0px;
+    margin-top:10px;
+    width: 20%;
+    height: 10em;
+    padding: 20px;
+    float:left;
+    text-align:left;
+}
+} 
+
+    
+/*
+|-------------------------------------------------------
+|  FOOTER  SLUTT
+|-------------------------------------------------------
+*/		
+	
 	
 	
 	
