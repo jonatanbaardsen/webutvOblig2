@@ -13,6 +13,11 @@ h2{
     text-align: center;
     font-family: CodeBold;
 }
+.container p{
+    margin-left: 5px;
+
+}
+
 #container{
 	color:black;
 	overflow: hidden;
@@ -287,29 +292,25 @@ nav ul ul ul a{
     clear: both;
 }
 .container{
+    display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow:hidden;
-	margin-left:10%;	
+	overflow: hidden;
+	margin-left:10%;
+    clear: 	
 
 	
 }
 
-.bildeContainer{
-    border: black solid 1px;
-    width: 25%;
-	margin:5px;
-    height: 200px;
-}
-
 .container2{
+    display: block;
     border: black solid 1px;
     width: 35%;
 	margin:5px;
     height: 200px;
-	overflow:hidden;
+	overflow: hidden;
 	margin-left:10%;
 }
 
@@ -336,10 +337,13 @@ nav ul ul ul a{
 }
 
 .flytVenstre{
-	float:left;
+	display: block;
+    float:left;
+
 	
 }
 .flytHogre{
+    display: block;
 	float:right;
 	
 }
