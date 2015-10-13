@@ -13,6 +13,7 @@ h2{
     text-align: center;
     font-family: CodeBold;
 }
+
 #container{
 	color:black;
 	overflow: hidden;
@@ -294,12 +295,7 @@ nav ul ul ul a{
 	
 }
 
-.bildeContainer{
-    border: black solid 1px;
-    width: 25%;
-	margin:5px;
-    height: 200px;
-}
+
 
 .container2{
     border: black solid 1px;
