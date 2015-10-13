@@ -1,0 +1,30 @@
+//
+    
+
+header{
+display: none;
+}
+
+.header{
+        display: none;
+    }
+
+footer{
+	display: none;
+}
+
+nav{
+	display: none;
+}
+
+.logo{
+
+display: none;
+}
+
+.container, .bildeContainer2, .bildeContainer{
+	width: 200px;
+	height: 200px;
+}
+
+

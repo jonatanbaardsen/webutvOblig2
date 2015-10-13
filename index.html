@@ -4,8 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
+<<<<<<< HEAD
 	<link rel = "stylesheet" href = "responsivt.css" media = "screen and (max-width: 1120px)"/>
 	<link rel="shortcut icon" href="Media/Ikoner/oakicon.png" />
+=======
+	<link rel="stylesheet" type="text/css" href = "responsivt.css" media = "screen and (max-width: 1100px)"/>
+	<link rel="stylesheet" type="text/css" href="print.css" media ="print">
+    <link rel="shortcut icon" href="Media/Ikoner/oakicon.png" />
+>>>>>>> afd1f1a1eb311fc7782f26ef0f3b1bf6c4a770fb
     <style>
         @font-face{font-family: CodeBold; src: url("fonts/CODE Bold.otf");}
         @font-face{font-family: CodeLight; src: url("fonts/CODE Light.otf");}
@@ -23,14 +29,30 @@
             <div class="logo"> <!-- LOGO I HEADER -->
                 <a href="index.html"><img src="media/logobilder/logo.png" alt="banzai oak logo" height="180" width="230"></a>
             </div>
-            <h1>BANZAI OAK</h1>
+           <h1><a href="index.html" class="link-noStyle">banzai oak</a></h1>
         </header>
         <nav>
             <ul class="hovedmeny">
-                <li class="meny-element"><a href="index.html">Hjemme</a></li>
-                <li class="meny-element"><a href="produkter.html">Produkter</a></li>
-                <li class="meny-element"><a href="kontakt.html">Kontakt oss</a></li>
-                <li class="meny-element"><a href="omoss.html">Om oss</a></li>
+                <li><a href="index.html">Hjemme</a></li>
+                <li><a href="produkter.html">Produkter</a>
+                    <ul>
+                        <li><a href="#" class="pil">Stue</a>
+                                <ul>
+                                    <a href="#">Sofaer</a>
+                                    <a href="#">Bord</a>
+                                    <a href="#">Stoler</a>
+                        </li>   </ul>
+                        <li><a href="#" class="pil">Soverom</a>
+                            <ul>
+                                <a href="#">Senger</a>
+                                <a href="#">Skaper</a>
+                                <a href="#">Sofaer</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.html">Kontakt oss</a></li>
+                <li><a href="omoss.html">Om oss</a></li>
 				<a href="feed.xml">
 				<img src="http://www.w3schools.com/xml/pic_rss.gif" width="36" height="14">
 				</a>
